@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="yahooValidateSignUp.ValidateSignUp">
+        <methods>
+          <include name="validateDate"/>
+          <include name="validateAfterTest"/>
+          <include name="validateSignUp"/>
+          <include name="validateYahoo"/>
+          <include name="validateYear"/>
+        </methods>
+      </class> <!-- yahooValidateSignUp.ValidateSignUp -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

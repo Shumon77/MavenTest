@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression test" duration-ms="26999" started-at="2021-03-11T20:40:40Z" finished-at="2021-03-11T20:41:07Z">
+    <groups>
+    </groups>
+    <test name="Parametarize testing-1" duration-ms="6911" started-at="2021-03-11T20:40:40Z" finished-at="2021-03-11T20:40:47Z">
+      <class name="flickerSignuptest.Parametarization">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:flickerSignuptest.Parametarization@58651fd0]" name="beforetest" is-config="true" duration-ms="4360" started-at="2021-03-11T15:40:40Z" finished-at="2021-03-11T15:40:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="flickertest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:flickerSignuptest.Parametarization@58651fd0]" name="flickertest" duration-ms="516" started-at="2021-03-11T15:40:45Z" finished-at="2021-03-11T15:40:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bob]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[john@icloud.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Wxgf5454]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flickertest -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:flickerSignuptest.Parametarization@58651fd0]" name="aftertest" is-config="true" duration-ms="2001" started-at="2021-03-11T15:40:45Z" finished-at="2021-03-11T15:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- flickerSignuptest.Parametarization -->
+    </test> <!-- Parametarize testing-1 -->
+    <test name="Parametarize testing-2" duration-ms="6402" started-at="2021-03-11T20:40:47Z" finished-at="2021-03-11T20:40:54Z">
+      <class name="flickerSignuptest.Parametarization">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:flickerSignuptest.Parametarization@cc285f4]" name="beforetest" is-config="true" duration-ms="3752" started-at="2021-03-11T15:40:47Z" finished-at="2021-03-11T15:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="flickertest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:flickerSignuptest.Parametarization@cc285f4]" name="flickertest" duration-ms="648" started-at="2021-03-11T15:40:51Z" finished-at="2021-03-11T15:40:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jefaot]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macam@icloud.com1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Wxgf54541]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flickertest -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:flickerSignuptest.Parametarization@cc285f4]" name="aftertest" is-config="true" duration-ms="2000" started-at="2021-03-11T15:40:52Z" finished-at="2021-03-11T15:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- flickerSignuptest.Parametarization -->
+    </test> <!-- Parametarize testing-2 -->
+    <test name="Parametarize testing-4" duration-ms="6862" started-at="2021-03-11T20:40:54Z" finished-at="2021-03-11T20:41:01Z">
+      <class name="flickerSignuptest.Parametarization">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:flickerSignuptest.Parametarization@475530b9]" name="beforetest" is-config="true" duration-ms="4240" started-at="2021-03-11T15:40:54Z" finished-at="2021-03-11T15:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="flickertest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:flickerSignuptest.Parametarization@475530b9]" name="flickertest" duration-ms="615" started-at="2021-03-11T15:40:58Z" finished-at="2021-03-11T15:40:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bob]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[john@icloud.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Wxgf5454]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flickertest -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:flickerSignuptest.Parametarization@475530b9]" name="aftertest" is-config="true" duration-ms="2003" started-at="2021-03-11T15:40:59Z" finished-at="2021-03-11T15:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- flickerSignuptest.Parametarization -->
+    </test> <!-- Parametarize testing-4 -->
+    <test name="Parametarize testing-5" duration-ms="6789" started-at="2021-03-11T20:41:01Z" finished-at="2021-03-11T20:41:07Z">
+      <class name="flickerSignuptest.Parametarization">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:flickerSignuptest.Parametarization@d8355a8]" name="beforetest" is-config="true" duration-ms="4084" started-at="2021-03-11T15:41:01Z" finished-at="2021-03-11T15:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="flickertest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:flickerSignuptest.Parametarization@d8355a8]" name="flickertest" duration-ms="689" started-at="2021-03-11T15:41:05Z" finished-at="2021-03-11T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bickle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Roach]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bickle@icloud.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Wxgf5454]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flickertest -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:flickerSignuptest.Parametarization@d8355a8]" name="aftertest" is-config="true" duration-ms="2014" started-at="2021-03-11T15:41:05Z" finished-at="2021-03-11T15:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- flickerSignuptest.Parametarization -->
+    </test> <!-- Parametarize testing-5 -->
+  </suite> <!-- Regression test -->
+</testng-results>

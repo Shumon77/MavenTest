@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [data driven testing for login]">
+  <parameter name="password" value="dhfdhh1234++"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="userName" value="Bob"/>
+  <parameter name="username" value="Bob"/>
+  <test name="Mercury login positive data(failed)">
+    <parameter name="password" value="dhfdhh1234++"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="userName" value="Bob"/>
+    <classes>
+      <class name="progressive1.MercuryLogin">
+        <methods>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- progressive1.MercuryLogin -->
+    </classes>
+  </test> <!-- Mercury login positive data(failed) -->
+  <test name="Mercury login Nagative data(failed)">
+    <parameter name="password" value="dhfdhh1234++"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="userName" value="Bob"/>
+    <classes>
+      <class name="progressive1.MercuryLogin">
+        <methods>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- progressive1.MercuryLogin -->
+    </classes>
+  </test> <!-- Mercury login Nagative data(failed) -->
+</suite> <!-- Failed suite [data driven testing for login] -->

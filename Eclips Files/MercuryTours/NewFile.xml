@@ -1,0 +1,23 @@
+
+
+<suite name = "Regression Testing1234">
+
+<test name = "Mercurytours,PhpTravels,Yahoologin Test Suite">
+
+<classes>
+
+
+
+<class name="pages.HomePageSignUp"></class>
+
+
+
+
+
+
+</classes>
+
+
+</test>
+
+</suite>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="data driven testing for login">
+<test name ="Mercury login">
+<parameter name="username" value="Bob"/>
+<parameter name="passward" value="dhfdhh1234++"/>
+
+<classes>
+
+<class name="progressive1.MercuryLogin"></class>
+
+</classes>
+
+</test>
+
+<test name ="Mercury login">
+<parameter name="username" value="Bob"/>
+<parameter name="passward" value="dhfdhh1234++"/>
+<parameter name="expecteddata" value="Welcome: Mercury Tours"/>
+<parameter name="browser" value="Chrome"/>
+<classes>
+
+<class name="progressive1.MercuryLogin"></class>
+
+</classes>
+
+</test>
+
+<test name ="Mercury login positive data">
+<parameter name="username" value="Bob"/>
+<parameter name="passward" value="dhfdhh1234++"/>
+<parameter name="expecteddata" value="Welcome: Mercury Tours"/>
+<parameter name="browser" value="Mozila"/>
+
+
+<classes>
+
+<class name="progressive1.MercuryLogin"></class>
+
+</classes>
+
+</test>
+
+<test name ="Mercury login Nagative data">
+<parameter name="username" value="Bob"/>
+<parameter name="passward" value="dhfdhh1234++"/>
+<parameter name="expecteddata" value="login page"/>
+<classes>
+
+<class name="Packagename.Classname"></class>
+
+</classes>
+
+</test>
+
+</suite>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression test">
+
+<test name="Parametarize testing-1" >
+
+
+<parameter name="firstname" value="John"/>
+
+<parameter name="lastname" value="Bob"/>
+
+<parameter name="email" value="john@icloud.com"/>
+
+<parameter name="password" value="Wxgf5454"/>
+
+
+
+<classes>
+
+<class name="flickerSignuptest.SignupTest"></class>
+
+
+
+</classes>
+
+
+</test>
+
+<test name="Parametarize testing-2" >
+
+
+<parameter name="firstname" value="John"/>
+
+<parameter name="lastname" value="Bob"/>
+
+<parameter name="email" value="john@icloud.com"/>
+
+<parameter name="password" value="Wxgf5454"/>
+
+
+
+<classes>
+
+<class name="flickerSignuptest.SignupTest"></class>
+
+
+
+</classes>
+
+
+</test>
+
+
+
+</suite>

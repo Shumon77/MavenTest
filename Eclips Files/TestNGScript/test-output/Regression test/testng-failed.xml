@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression test]">
+  <test name="Signup testing(failed)">
+    <classes>
+      <class name="signuptestscript.Scriptflickr">
+        <methods>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- signuptestscript.Scriptflickr -->
+      <class name="signuptestscript.Signuptest">
+        <methods>
+          <include name="validateSignupe"/>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- signuptestscript.Signuptest -->
+    </classes>
+  </test> <!-- Signup testing(failed) -->
+</suite> <!-- Failed suite [Regression test] -->

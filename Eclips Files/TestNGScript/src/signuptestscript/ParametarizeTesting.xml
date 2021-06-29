@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression test">
+<test name="Flickr test data -1">
+
+<parameter name="firstname" value="John"/>
+<parameter name="lastname" value="Mac"/>
+<parameter name="email" value="john@icloud.com"/>
+<parameter name="password" value="Apple12"/>
+
+<classes>
+
+<class name="signuptestscript.TestScript"></class>
+</classes>
+</test>
+
+<test name="Flickr test data -2">
+
+<parameter name="firstname" value="Bob"/>
+<parameter name="lastname" value="Shon"/>
+<parameter name="email" value="Bob@icloud.com"/>
+<parameter name="password" value="Apple12"/>
+
+<classes>
+
+
+<class name="signuptestscript.TestScript"></class>
+
+
+</classes>
+
+</test>
+
+</suite>

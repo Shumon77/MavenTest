@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Testing1234]">
+  <test name="Mercurytours,PhpTravels,Yahoologin Test Suite(failed)">
+    <classes>
+      <class name="phpTravelsSignUp.HomePageSignUp">
+        <methods>
+          <include name="validateHomePageSignUp"/>
+          <include name="validateSignUp"/>
+        </methods>
+      </class> <!-- phpTravelsSignUp.HomePageSignUp -->
+    </classes>
+  </test> <!-- Mercurytours,PhpTravels,Yahoologin Test Suite(failed) -->
+</suite> <!-- Failed suite [Regression Testing1234] -->

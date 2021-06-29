@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name = "Regression Testing1234">
+
+<test name = "Mercurytours,PhpTravels,Yahoologin Test Suite">
+
+<classes>
+
+
+
+<class name="yahooValidateSignUp.ValidateSignUp"></class>
+
+
+
+
+
+
+</classes>
+
+
+</test>
+
+</suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Testing123]">
+  <test name="Progressive Test Suites(failed)">
+    <classes>
+      <class name="progressive1.ValidatingHomePage">
+        <methods>
+          <include name="validateTitle"/>
+          <include name="setupTest"/>
+          <include name="validateURL"/>
+        </methods>
+      </class> <!-- progressive1.ValidatingHomePage -->
+      <class name="progressive2.validateinsoopsion">
+        <methods>
+          <include name="validateInsuranceOpsionProperty"/>
+          <include name="setupTest"/>
+          <include name="validateInsuranceOptiionHome"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- progressive2.validateinsoopsion -->
+    </classes>
+  </test> <!-- Progressive Test Suites(failed) -->
+</suite> <!-- Failed suite [Regression Testing123] -->
