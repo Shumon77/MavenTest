@@ -27,22 +27,22 @@ public class TestCase1 {
 		WebElement Signin = driver.findElement(By.linkText("Sign in"));
 		Signin.click();
 		
-		Thread.sleep(20000);
+		Thread.sleep(10000);
 		driver.navigate().back();
 		 
-		 Thread.sleep(20000);
+		 Thread.sleep(10000);
 		 WebElement Overview = driver.findElement(By.linkText("Overview")); 
 		 Overview.click();
 		 
-		 Thread.sleep(20000);
+		 Thread.sleep(10000);
 		 driver.navigate().back();
 		 
 		 
-		 Thread.sleep(20000);
+		 Thread.sleep(10000);
 		 WebElement Develop_productively = driver.findElement(By.linkText("Develop productively, collaborate globally"));
 		 Develop_productively.click();
 		 
-		 Thread.sleep(20000);
+		 Thread.sleep(10000);
 		 driver.navigate().back();
 		 
 		 
