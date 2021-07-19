@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9261" started-at="2021-06-06T17:47:44Z" finished-at="2021-06-06T17:47:53Z">
+  <suite name="Default suite" duration-ms="9896" started-at="2021-07-19T16:18:08Z" finished-at="2021-07-19T16:18:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9261" started-at="2021-06-06T17:47:44Z" finished-at="2021-06-06T17:47:53Z">
+    <test name="Default test" duration-ms="9896" started-at="2021-07-19T16:18:08Z" finished-at="2021-07-19T16:18:18Z">
       <class name="valedateCompare.Script">
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:valedateCompare.Script@5db250b4]" name="beforetest" is-config="true" duration-ms="4794" started-at="2021-06-06T13:47:44Z" finished-at="2021-06-06T13:47:49Z">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:valedateCompare.Script@38c5cc4c]" name="beforetest" is-config="true" duration-ms="5177" started-at="2021-07-19T12:18:08Z" finished-at="2021-07-19T12:18:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="test()[pri:1, instance:valedateCompare.Script@5db250b4]" name="test" duration-ms="257" started-at="2021-06-06T13:47:49Z" finished-at="2021-06-06T13:47:49Z">
+        <test-method status="PASS" signature="test()[pri:1, instance:valedateCompare.Script@38c5cc4c]" name="test" duration-ms="416" started-at="2021-07-19T12:18:13Z" finished-at="2021-07-19T12:18:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="FAIL" signature="testlinkTerms()[pri:2, instance:valedateCompare.Script@5db250b4]" name="testlinkTerms" duration-ms="118" started-at="2021-06-06T13:47:49Z" finished-at="2021-06-06T13:47:49Z">
+        <test-method status="FAIL" signature="testlinkTerms()[pri:2, instance:valedateCompare.Script@38c5cc4c]" name="testlinkTerms" duration-ms="176" started-at="2021-07-19T12:18:13Z" finished-at="2021-07-19T12:18:13Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://www.flickr.com/help/terms] but found [https://identity.flickr.com/sign-up]]]>
@@ -58,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testlinkTerms -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:valedateCompare.Script@5db250b4]" name="aftertest" is-config="true" duration-ms="4081" started-at="2021-06-06T13:47:49Z" finished-at="2021-06-06T13:47:53Z">
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:valedateCompare.Script@38c5cc4c]" name="aftertest" is-config="true" duration-ms="4084" started-at="2021-07-19T12:18:13Z" finished-at="2021-07-19T12:18:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->

@@ -2,8 +2,11 @@ package selenium;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class WebElementinteraction {
 
@@ -20,12 +23,47 @@ public class WebElementinteraction {
 		
 		driver.manage().deleteAllCookies();
 		
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		
+		
+		WebElement firstname = driver.findElement(By.name("firstName"));
+		
+		firstname.sendKeys("");
+		
+		
+		WebElement countrycode = driver.findElement(By.id("relative-country-code"));
 		
 		
 		
+		Select ccdd = new Select(countrycode);
+		
+		
+		ccdd.selectByIndex(17);
+		
+	
+		
+		
+		WebElement month = driver.findElement(By.id("usernamereg-month")); 
+		
+		month.sendKeys("July");
+		
+		Select mm = new Select(month);
+		
+		mm.selectByVisibleText("July");
+		
+		
+		WebElement day = driver.findElement(By.id("usernamereg-day")); 
+		
+		day.sendKeys("10");
+		
+		
+		Select daydd = new Select(day);
+		
+		daydd.selectByIndex(10);
+		
+		day.sendKeys("10");
 		
 		
 		
